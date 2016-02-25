@@ -1,11 +1,12 @@
 {
-  "name": "js-immutable-log",
+  "name": "immutable-console-log",
   "version": "1.0.0",
   "description": "",
   "main": "./lib/index.js",
   "devDependencies": {
     "babel-cli": "^6.5.1",
     "babel-preset-es2015": "^6.5.0",
+    "eslint": "^2.2.0",
     "eslint-config-mikewilcox": "^1.2.0"
   },
   "scripts": {
