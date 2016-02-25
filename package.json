@@ -1,17 +1,18 @@
 {
-  "name": "nice-immutable-logs",
+  "name": "js-immutable-log",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "peerDependencies": {
     "immutable": "^3.7.6"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
-    "babel-preset-es2015": "^6.5.0"
+    "babel-preset-es2015": "^6.5.0",
+    "eslint-config-mikewilcox": "^1.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --loose all --out-dir lib"
   },
   "keywords": [
     "immutable",
