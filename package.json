@@ -12,7 +12,8 @@
     "eslint-config-mikewilcox": "^1.2.0"
   },
   "scripts": {
-    "build": "babel src --loose all --out-dir lib"
+    "build": "babel src --loose all --out-dir lib",
+    "lint": "eslint src"
   },
   "keywords": [
     "immutable",
